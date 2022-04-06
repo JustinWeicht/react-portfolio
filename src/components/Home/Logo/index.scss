@@ -1,0 +1,41 @@
+$primary: #516360;
+$secondary: #6d9387;
+$tertiary: #fff;
+
+.logo-container {
+  z-index: 0;
+  width: 600px;
+  height: 761.25px;
+  opacity: 0;
+  position: absolute;
+  top: 25%;
+  right: 10%;
+  bottom: 0;
+  left: auto;
+  margin: auto;
+
+  svg {
+    width: 100%;
+    height: auto;
+    bottom: 0;
+    transform: rotateZ(0deg) !important;
+  }
+
+  .solid-logo {
+    position: absolute;
+    top: auto;
+    right: auto;
+    bottom: auto;
+    left: 0;
+    margin: auto;
+    width: 100%;
+    opacity: 0;
+    transform: rotateZ(0deg) !important;
+    z-index: 1;
+  }
+}
+
+.svg-container {
+  stroke: $secondary;
+  stroke-width: 2;
+}
