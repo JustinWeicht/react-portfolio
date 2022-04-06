@@ -99,6 +99,12 @@ $tertiary: #fff;
       }
     }
 
+    a.resume-link {
+      &:after {
+        content: 'RESUME';
+      }
+    }
+
     a.active {
       svg {
         color: $tertiary;

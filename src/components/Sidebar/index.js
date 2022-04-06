@@ -2,7 +2,7 @@ import './index.scss';
 import { Link, NavLink } from 'react-router-dom';
 import LogoJ from '../../assets/images/LogoJ.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHome, faUser, faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { faHome, faUser, faEnvelope, faFilePdf } from '@fortawesome/free-solid-svg-icons';
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 const Sidebar = () => (
@@ -22,6 +22,11 @@ const Sidebar = () => (
       </NavLink>
     </nav>
     <ul>
+      <li>
+        <a target='_blank' rel='noreferrer' href='https://drive.google.com/file/d/1sFqpRz78aIXf7i89EEq83iYCA27vysJS/view?usp=sharing'>
+          <FontAwesomeIcon icon={faFilePdf} color='#edd8ca' />
+        </a>
+      </li>
       <li>
         <a target='_blank' rel='noreferrer' href='https://www.linkedin.com/in/justin-weicht/'>
           <FontAwesomeIcon icon={faLinkedin} color='#edd8ca' />
