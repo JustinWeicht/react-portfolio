@@ -2,7 +2,7 @@ $primary: #516360;
 $secondary: #6d9387;
 $tertiary: #fff;
 
-.logo-container {
+.world-container {
   z-index: 0;
   width: 600px;
   height: 761.25px;
@@ -13,15 +13,10 @@ $tertiary: #fff;
   bottom: 0;
   left: auto;
   margin: auto;
+  animation: fadeIn 2s 3s;
+  animation-fill-mode: forwards;
 
-  svg {
-    width: 100%;
-    height: auto;
-    bottom: 0;
-    transform: rotateZ(0deg) !important;
-  }
-
-  .solid-logo {
+  .solid-world {
     position: absolute;
     top: auto;
     right: auto;
@@ -30,12 +25,20 @@ $tertiary: #fff;
     margin: auto;
     width: 100%;
     opacity: 0;
-    transform: rotateZ(0deg) !important;
-    z-index: 1;
+    animation: fadeIn 2s 3s;
+    animation-fill-mode: forwards;
   }
-}
 
-.svg-container {
-  stroke: $secondary;
-  stroke-width: 2;
+  .outline-world {
+    position: absolute;
+    top: 4px;
+    right: auto;
+    bottom: auto;
+    left: 0;
+    margin: auto;
+    width: 100%;
+    opacity: 0;
+    animation: fadeIn 2s 4s;
+    animation-fill-mode: forwards;
+  }
 }
