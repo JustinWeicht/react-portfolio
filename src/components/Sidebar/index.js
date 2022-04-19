@@ -23,7 +23,7 @@ const Sidebar = () => (
     </nav>
     <ul>
       <li>
-        <a target='_blank' rel='noreferrer' href='https://drive.google.com/file/d/10xv9WekMxlThQk0iMiCORtFq0b_tZUpy/view?usp=sharing'>
+        <a target='_blank' rel='noreferrer' href='https://docs.google.com/document/d/1x3B4CLv3EHs6PhZKTPOu1hwl7Q9YyQOc/edit?usp=sharing&ouid=113811089123579226749&rtpof=true&sd=true'>
           <FontAwesomeIcon icon={faFilePdf} color='#edd8ca' />
         </a>
       </li>
