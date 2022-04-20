@@ -7,6 +7,8 @@
   position: absolute;
   right: 0;
   overflow: hidden;
+  perspective: 5000px;
+	perspective-origin: 100% 50px;
 }
 
 .cubespinner {
@@ -78,3 +80,5 @@
     transform: rotateX(90deg);
   }
 }
+
+// 
