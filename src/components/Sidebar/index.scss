@@ -92,16 +92,16 @@ $tertiary: #fff;
         content: 'RESUME';
       }
     }
+    
+    a.works-link {
+      &:after {
+        content: 'WORKS';
+      }
+    }
 
     a.contact-link {
       &:after {
         content: 'CONTACT';
-      }
-    }
-
-    a.resume-link {
-      &:after {
-        content: 'RESUME';
       }
     }
 
