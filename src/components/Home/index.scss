@@ -53,7 +53,7 @@ $tertiary: #fff;
   }
 
   .flat-button {
-    color: $primary;
+    color: $tertiary;
     font-size: 13px;
     font-weight: 400;
     letter-spacing: 4px;
@@ -68,7 +68,6 @@ $tertiary: #fff;
 
     &:hover {
       background: $primary;
-      color: $tertiary;
     }
   }
 }

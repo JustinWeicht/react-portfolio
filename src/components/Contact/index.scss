@@ -61,8 +61,8 @@ $tertiary: #fff;
   }
 
   .flat-button {
-    color: $primary;
-    background: 0 0;
+    color: $tertiary;
+    background: $secondary;
     font: 11px;
     letter-spacing: 3px;
     text-decoration: none;
@@ -72,7 +72,6 @@ $tertiary: #fff;
     border-radius: 4px;
 
     &:hover {
-      color: $tertiary;
       background: $primary;
     }
   }
