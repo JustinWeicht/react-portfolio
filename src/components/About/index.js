@@ -26,13 +26,13 @@ const About = () => {
               />
           </h1>
           <p>
-            I have recently completed a Coding Bootcamp program at University of Toronto and am looking forward to switching careers from HVAC/R into software engineering. 
+            I have recently completed a Coding Bootcamp program at University of Toronto and am looking forward to switching careers from HVAC/R into web development. 
             </p>
           <p>
-            I have a lot of passion for computers, learning about new technologies, creating new projects, and troubleshooting/problem-solving issues or problems in current systems. This made me explore new career paths which led to software engineering. 
+            I have a lot of passion for computers, learning about new technologies, creating new projects, and troubleshooting/problem-solving issues or problems in current systems. This made me explore new career paths which led to web development. 
           </p>
           <p>
-            I look forward to continuously developing my skill-set as a software engineer.
+            I look forward to continuously developing my skill-set as a web developer.
           </p>
         </div>
         
