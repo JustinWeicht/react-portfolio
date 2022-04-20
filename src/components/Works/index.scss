@@ -32,14 +32,14 @@ $tertiary: #fff;
   height: auto;
   // transition: .5s ease;
       opacity: 0;
-      animation: fadeInRight 1s 1s;
+      animation: fadeInRight 1.5s 0.5s;
       animation-fill-mode: forwards;
-      clear: both;
   backface-visibility: hidden;
 }
 
 
 .work-title {
+  color: $primary;
   transition: 1s ease;
   opacity: 0;
   position: absolute;
@@ -52,7 +52,7 @@ $tertiary: #fff;
 
 .top-button,
 .bot-button {
-  transition: .5s ease;
+  transition: 1s 0.25s ease;
   opacity: 0;
   position: absolute;
   width: 50px;
