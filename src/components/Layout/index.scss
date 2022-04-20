@@ -43,7 +43,8 @@ $tertiary: #fff;
 
 .about-page,
 .resume-page,
-.contact-page {
+.contact-page,
+.works-page {
   .text-zone {
     position: absolute;
     left: 10%;
@@ -123,4 +124,11 @@ $tertiary: #fff;
 
 .about-page {
   top: 5%;
+}
+
+.works-page {
+  top: 0%;
+  .text-zone {
+    width: 50%;
+  }
 }
